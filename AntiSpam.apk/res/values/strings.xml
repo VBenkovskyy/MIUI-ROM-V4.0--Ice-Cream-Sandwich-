@@ -56,7 +56,7 @@
   <string name="fw_advanced_settings">高级拦截</string>
   <string name="fw_all_day">全天拦截</string>
   <string name="fw_blacklist">黑名单</string>
-  <string name="fw_blacklist_hint">"把您要拦截的号码添加到这里。黑名单中的来电和短信默认全部拦截</string>
+  <string name="fw_blacklist_hint">"把您要拦截的号码添加到这里。黑名单中的来电和短信默认全部拦截。"</string>
   <string name="fw_blocked">已保护您免于打扰</string>
   <string name="fw_blocked_count" formatted="false">替您新拦截了%d个来电%d个短信</string>
   <string name="fw_call" formatted="false">电话拦截：%s (%d)</string>

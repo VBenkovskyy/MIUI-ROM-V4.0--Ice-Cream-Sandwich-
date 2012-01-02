@@ -33,7 +33,8 @@
   <string name="accessibility_no_data">No data.</string>
   <string name="accessibility_no_phone">No phone.</string>
   <string name="accessibility_no_sim">No SIM.</string>
-  <string name="accessibility_no_wifi">No WiFi.</string>
+  <string name="accessibility_no_wifi">No Wi-Fi.</string>
+  <string name="accessibility_no_wimax">No Wi-MAX.</string>
   <string name="accessibility_notifications_button">Notifications.</string>
   <string name="accessibility_phone_one_bar">Phone one bar.</string>
   <string name="accessibility_phone_signal_full">Phone signal full.</string>
@@ -48,11 +49,15 @@
   <string name="accessibility_tty_enabled">TeleTypewriter enabled.</string>
   <string name="accessibility_wifi_one_bar">WiFi one bar.</string>
   <string name="accessibility_wifi_signal_full">WiFi signal full.</string>
-  <string name="accessibility_wifi_three_bars">WiFi three bars.</string>
-  <string name="accessibility_wifi_two_bars">WiFi two bars.</string>
+  <string name="accessibility_wifi_three_bars">Wi-Fi three bars.</string>
+  <string name="accessibility_wifi_two_bars">Wi-Fi two bars.</string>
+  <string name="accessibility_wimax_one_bar">Wi-MAX one bar.</string>
+  <string name="accessibility_wimax_signal_full">Wi-MAX signal full.</string>
+  <string name="accessibility_wimax_three_bars">Wi-MAX three bars.</string>
+  <string name="accessibility_wimax_two_bars">Wi-MAX two bars.</string>
   <string name="always_use_accessory">Use by default for this USB accessory</string>
   <string name="always_use_device">Use by default for this USB device</string>
-  <string name="app_label">MiuiSystemUI</string>
+  <string name="app_label">System UI</string>
   <string name="battery_indicator_style">Battery indicator style</string>
   <string name="battery_low_percent_format">%d%% remaining</string>
   <string name="battery_low_subtitle">The battery is getting low.</string>
@@ -76,7 +81,6 @@
   <string name="gps_notification_found_text">Location set by GPS</string>
   <string name="gps_notification_searching_text">Searching for GPS</string>
   <string name="incoming_call_vibrate_hint">Incoming call</string>
-  <string name="insecure_expand_style">expandable under insecure key-guard</string>
   <string name="installer_cd_button_title">Install Android File Transfer application for Mac</string>
   <string name="invalid_charger">"USB charging not supported. Use only the supplied charger."</string>
   <string name="label_view">View</string>

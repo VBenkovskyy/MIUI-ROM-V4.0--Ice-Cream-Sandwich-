@@ -59,7 +59,6 @@
   <string name="pref_camera_flashmode_entry_on">On</string>
   <string name="pref_camera_flashmode_no_flash">no_flash</string>
   <string name="pref_camera_flashmode_title">Flash mode</string>
-  <string name="pref_camera_focusmode_default">continuous-picture</string>
   <string name="pref_camera_focusmode_entry_auto">Auto</string>
   <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
   <string name="pref_camera_focusmode_entry_macro">Macro</string>
