@@ -1,13 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_05f5">false</string>
-  <string name="APKTOOL_DUMMY_05f6">false</string>
-  <string name="APKTOOL_DUMMY_05f7">false</string>
+  <string name="APKTOOL_DUMMY_05e5">false</string>
+  <string name="APKTOOL_DUMMY_05e6">false</string>
+  <string name="APKTOOL_DUMMY_05e7">false</string>
   <string name="about_settings">About phone</string>
   <string name="about_settings_summary">View legal info, status, software version</string>
+  <string name="ac_enable_title">Enable Access Control</string>
+  <string name="ac_privacy_mode_title">Password protect mode</string>
+  <string name="ac_set_apps_title">Protect Apps mode</string>
   <string name="accelerometer_summary_off">Switch orientation automatically when rotating phone</string>
   <string name="accelerometer_summary_on">Switch orientation automatically when rotating phone</string>
   <string name="accelerometer_title">Auto-rotate screen</string>
+  <string name="access_control_app_entry_multiple">Open %s</string>
+  <string name="access_control_app_entry_single">Open selected app</string>
+  <string name="access_control_apps_title">Modify application access</string>
+  <string name="access_control_need_password">"%s has been protected"</string>
+  <string name="access_control_need_to_unlock">Password required to unlock</string>
+  <string name="access_control_no_back_footer">Press the [icon] to exit</string>
+  <string name="access_control_password_title">Enable password</string>
+  <string name="access_control_recording_intro_header">Draw pattern to create password lock</string>
   <string name="accessibility_long_press_timeout_title">Touch &amp; hold delay</string>
   <string name="accessibility_menu_item_settings">Settings</string>
   <string name="accessibility_menu_item_tutorial">Tutorial</string>
@@ -143,6 +154,8 @@
   <string name="automatic_brightness">Automatic brightness</string>
   <string name="available_size">%s available</string>
   <string name="awake">Device awake time</string>
+  <string name="back_long_press">Back key</string>
+  <string name="back_long_press_timeout">"Delay %1$.1f secs"</string>
   <string name="background_data">Background data</string>
   <string name="background_data_dialog_message">Disabling background data extends battery life and lowers data use. Some apps may still use the background data connection.</string>
   <string name="background_data_dialog_title">Disable background data?</string>
@@ -237,7 +250,7 @@
   <string name="battery_sugg_radio">Switch to airplane mode to save power in areas with no cell coverage</string>
   <string name="battery_sugg_wifi">"Turn off Wi-Fi when not using it or when it isn't available"</string>
   <string name="bearer">Bearer</string>
-  <string name="biometric_weak_improve_matching_title">Calibrate face matching</string>
+  <string name="biometric_weak_improve_matching_title">Improve face matching</string>
   <string name="bluetooth">Bluetooth</string>
   <string name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
   <string name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
@@ -382,6 +395,18 @@
   <string name="cached">Cached background process</string>
   <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
   <string name="call_settings_title">Call settings</string>
+  <string name="camera_key_action_app_title">Open application</string>
+  <string name="camera_key_action_category_title">Use if camera application is not open</string>
+  <string name="camera_key_action_none_title">No action</string>
+  <string name="camera_key_action_setting_title">MI Button</string>
+  <string name="camera_key_action_shortcut_call">Call</string>
+  <string name="camera_key_action_shortcut_home">Back to homescreen</string>
+  <string name="camera_key_action_shortcut_screenshot">Capture screenshot</string>
+  <string name="camera_key_action_shortcut_search">Search</string>
+  <string name="camera_key_action_shortcut_title">Shortcut</string>
+  <string name="camera_key_action_shortcut_wake">Lock / Wake device</string>
+  <string name="camera_key_action_title">MI button</string>
+  <string name="camera_key_action_toggle_title">Trigger toggle</string>
   <string name="cancel">Cancel</string>
   <string name="cant_sync_dialog_message">Sync for this item is currently disabled. To change this setting, temporarily turn on background data and automatic sync.</string>
   <string name="cant_sync_dialog_title">"Can't manually sync"</string>
@@ -545,6 +570,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_status_summary">Phone number, signal, etc.</string>
   <string name="dialog_title_font_size">Font size</string>
   <string name="disableNetwork">disableNetwork</string>
+  <string name="disable_power_key_long_press_under_keyguard">Disable on lockscreen</string>
   <string name="disable_text">Disable</string>
   <string name="disabled">Disabled</string>
   <string name="disconnect">disconnect</string>
@@ -581,6 +607,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="enableNetwork">enableNetwork</string>
   <string name="enable_adb">USB debugging</string>
   <string name="enable_adb_summary">Debug mode when USB is connected</string>
+  <string name="enable_back_long_press">Long-press Back to kill App</string>
   <string name="enable_compatibility">Scale app</string>
   <string name="enable_text">Enable</string>
   <string name="enter_password">Type password to decrypt storage</string>
@@ -668,6 +695,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="keep_screen_on">Stay awake</string>
   <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
   <string name="kernel_version">Kernel version</string>
+  <string name="key_settings">Button</string>
+  <string name="key_settings_title">Button</string>
   <string name="keyboard_settings_category">Keyboard &amp; input methods</string>
   <string name="keyboard_settings_title">Android keyboard</string>
   <string name="language_keyboard_settings_title">Language &amp; input</string>
@@ -775,6 +804,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="master_clear_gesture_prompt">Draw your unlock pattern</string>
   <string name="master_clear_summary">Erases all data on phone</string>
   <string name="master_clear_title">Factory data reset</string>
+  <string name="media_button">Media button</string>
   <string name="media_format_button_text">Erase USB storage</string>
   <string name="media_format_desc">Erase all USB storage? You will lose </string>
   <string name="media_format_final_button_text">Erase everything</string>
@@ -815,6 +845,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="move_app_to_internal">Move to phone</string>
   <string name="move_app_to_sdcard">Move to USB storage</string>
   <string name="moving">Moving</string>
+  <string name="multi_touch_points_category_title">Multi-touch points</string>
+  <string name="multi_touch_points_preference">Reboot to enable</string>
   <string name="musicfx_title">Music effects</string>
   <string name="network_settings_title">Mobile networks</string>
   <string name="network_state_label">Network state:</string>
@@ -828,6 +860,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="no">No</string>
   <string name="no_applications">No apps.</string>
   <string name="no_device_admins">No available device administrators</string>
+  <string name="no_media_button_receiver">No</string>
   <string name="no_running_services">Nothing running.</string>
   <string name="no_services">Not active</string>
   <string name="normal_date_format">Regional (%s)</string>
@@ -861,6 +894,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="power_bluetooth">Bluetooth</string>
   <string name="power_cell">Cell standby</string>
   <string name="power_idle">Phone idle</string>
+  <string name="power_key">Power button</string>
   <string name="power_phone">Voice calls</string>
   <string name="power_screen">Screen</string>
   <string name="power_usage_level_and_status">%1$s - %2$s</string>
@@ -868,7 +902,13 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="power_usage_summary">What has been using the battery</string>
   <string name="power_usage_summary_title">Battery</string>
   <string name="power_wifi">Wi-Fi</string>
+  <string name="pref_volume_category_title">Volume</string>
+  <string name="pref_volume_wake_summary">Pressing the volume up/down wakes the device. Intended for devices with hard to press power key</string>
+  <string name="pref_volume_wake_title">Volume rocker wake</string>
   <string name="preference_change_password_title">Change password</string>
+  <string name="preferred_media_app_summary">Choose Music player</string>
+  <string name="privacy_mode_enable_title">Enable guarded mode</string>
+  <string name="privacy_protect_title">Privacy protection</string>
   <string name="privacy_settings">Backup &amp; reset</string>
   <string name="privacy_settings_title">Backup &amp; reset</string>
   <string name="process_kernel_label">Android OS</string>
@@ -1193,6 +1233,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="title_font_size">Font size</string>
   <string name="total_size">%s (total)</string>
   <string name="total_size_label">Total</string>
+  <string name="trackball_settings">Trackball</string>
+  <string name="trackball_wake_title">Trackball wake</string>
   <string name="transition_animation_scale_title">Transition animation scale</string>
   <string name="trusted_credentials">Trusted credentials</string>
   <string name="trusted_credentials_disable_confirmation">Disable the system CA certificate?</string>

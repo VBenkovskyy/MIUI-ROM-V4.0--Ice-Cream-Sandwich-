@@ -46,4 +46,5 @@
         <item>Y</item>
         <item>Z</item>
     </string-array>
+    <array name="android_config_virtualKeyVibePattern">@android:array/config_virtualKeyVibePattern</array>
 </resources>

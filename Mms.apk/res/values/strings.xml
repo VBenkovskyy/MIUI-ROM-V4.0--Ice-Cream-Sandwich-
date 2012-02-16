@@ -26,6 +26,7 @@
   <string name="attach_record_video">Capture video</string>
   <string name="attach_slideshow">Slideshow</string>
   <string name="attach_sound">Audio</string>
+  <string name="attach_subject">Subject</string>
   <string name="attach_take_photo">Capture picture</string>
   <string name="attach_video">Videos</string>
   <string name="batch_delete_confirm_dialog_message">Are you sure you wish to delete the selected %1$s message(s)?</string>
@@ -85,7 +86,6 @@
   <string name="copy_to_sdcard_fail">"Couldn't save attachment."</string>
   <string name="copy_to_sdcard_success">Attachment saved.</string>
   <string name="database_corruption">Database corrupted, recreating database</string>
-  <string name="date_timed_message_dialog">Date:</string>
   <string name="delete">Delete</string>
   <string name="delete_bookmark">Remove from Favorites</string>
   <string name="delete_message">Delete</string>
@@ -139,6 +139,7 @@
   <string name="forward_prefix">"Fwd: "</string>
   <string name="from_label">"From: "</string>
   <string name="full_phrase">The number of phrases you have entered has exceeded 50.</string>
+  <string name="group_message">Group message</string>
   <string name="group_message_failed_title">Failed sending to %d contacts, retry?</string>
   <string name="group_resend_message">Resend(%d)</string>
   <string name="guild_add_attachments">Click here to add attachments or smily for the message</string>
@@ -388,12 +389,12 @@
   <string name="subject_label">"Subject: "</string>
   <string name="text_in_popup_saved_to_clipboard">The text edited in the popup was saved to clipboard</string>
   <string name="text_message">Text message</string>
-  <string name="time_timed_message_dialog">Time:</string>
   <string name="title_timed_message_dialog">Please configure the time of this timed message</string>
   <string name="to_address_label">"To: "</string>
   <string name="to_count">%d in all</string>
   <string name="to_hint">To</string>
   <string name="to_label">"To "</string>
+  <string name="to_send_wrapper">Will send at %s</string>
   <string name="too_many_attachments">There is a limit of %1$s attachments. Only the first %2$s will be added.</string>
   <string name="too_many_recipients">Message has too many recipients (%1$s). There is a limit of %2$s recipients.</string>
   <string name="too_many_unsent_mms">"Can't send message right now. Too many unsent multimedia messages."</string>
@@ -403,7 +404,8 @@
   <string name="type_to_compose_text_enter_to_send">Type message</string>
   <string name="type_to_compose_text_or_leave_blank">Type message, or leave blank</string>
   <string name="type_video">video</string>
-  <string name="undelivered_msg_dialog_body">"Couldn't send this message. Attempt made: %s."</string>
+  <string name="undelivered_msg_dialog_body">"Couldn't send this message.
+Attempt made: %s."</string>
   <string name="undelivered_msg_dialog_title">Undelivered message</string>
   <string name="undelivered_sms_dialog_body">"Couldn't send this message."</string>
   <string name="unknown_sender">Unknown sender</string>

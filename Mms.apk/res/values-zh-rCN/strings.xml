@@ -26,6 +26,7 @@
   <string name="attach_record_video">拍摄</string>
   <string name="attach_slideshow">幻灯片</string>
   <string name="attach_sound">音频</string>
+  <string name="attach_subject">主题</string>
   <string name="attach_take_photo">拍照</string>
   <string name="attach_video">视频</string>
   <string name="batch_delete_confirm_dialog_message">将删除所选的%1$s条信息</string>
@@ -84,7 +85,6 @@
   <string name="copy_to_sdcard_fail">无法保存附件</string>
   <string name="copy_to_sdcard_success">附件已保存至%1$s目录</string>
   <string name="database_corruption">数据库损坏，正在重建数据库……</string>
-  <string name="date_timed_message_dialog">"日期: "</string>
   <string name="delete">删除</string>
   <string name="delete_bookmark">取消收藏</string>
   <string name="delete_message">删除</string>
@@ -137,6 +137,7 @@
   <string name="forward_prefix">"Fwd: "</string>
   <string name="from_label">"发送者： "</string>
   <string name="full_phrase">您的常用语已经到达50条上限</string>
+  <string name="group_message">群发短信</string>
   <string name="group_message_failed_title">给%d人发送失败,选择并重发?</string>
   <string name="group_resend_message">重发(%d)</string>
   <string name="guild_add_attachments">点此可以给短信插入附件和更多内容</string>
@@ -327,7 +328,7 @@
   <string name="saved_ringtone">铃声已保存</string>
   <string name="saved_ringtone_fail">无法保存铃声</string>
   <string name="search">短信</string>
-  <string name="search_empty">没有匹配项</string>
+  <string name="search_empty">没有搜索结果</string>
   <string name="search_hint">搜索短信</string>
   <string name="search_history">%1$s 项符合“%2$s”的搜索结果</string>
   <string name="search_label">正在传递短信</string>
@@ -382,12 +383,12 @@
   <string name="subject_label">"主题： "</string>
   <string name="text_in_popup_saved_to_clipboard">弹窗中输入的文字已存入剪贴板</string>
   <string name="text_message">短信</string>
-  <string name="time_timed_message_dialog">"时间: "</string>
   <string name="title_timed_message_dialog">请设定短信发送的时间</string>
   <string name="to_address_label">"收信人： "</string>
   <string name="to_count">%d人</string>
   <string name="to_hint">收信人</string>
   <string name="to_label">"收信人 "</string>
+  <string name="to_send_wrapper">将于 %s 发出</string>
   <string name="too_many_attachments">附件数量上限为 %1$s 个。只会添加前 %2$s 个。</string>
   <string name="too_many_recipients">此短信的收件人太多 (%1$s)。收件人数上限为 %2$s 个。</string>
   <string name="too_many_unsent_mms">目前不能发送消息。未发送的彩信过多。</string>
@@ -397,7 +398,8 @@
   <string name="type_to_compose_text_enter_to_send">输入内容</string>
   <string name="type_to_compose_text_or_leave_blank">输入文字或保留空白</string>
   <string name="type_video">视频</string>
-  <string name="undelivered_msg_dialog_body">"无法发送此信息。尝试发送的时间：%s。"</string>
+  <string name="undelivered_msg_dialog_body">"无法发送此信息。
+尝试发送的时间：%s。"</string>
   <string name="undelivered_msg_dialog_title">信息未传送出去</string>
   <string name="undelivered_sms_dialog_body">无法发送此信息。</string>
   <string name="unknown_sender">未知发送者</string>

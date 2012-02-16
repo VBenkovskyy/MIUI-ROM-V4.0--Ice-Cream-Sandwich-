@@ -29,7 +29,7 @@
   <string name="callBack">回电</string>
   <string name="callDetailTitle">通话详情</string>
   <string name="callDetailsDurationFormat" formatted="false">%s 分 %s 秒</string>
-  <string name="callNoAnswerTimeFormat">响铃%s声</string>
+  <string name="callNoAnswerTimeFormat" formatted="false">响铃%s声</string>
   <string name="callShortcutActivityTitle">选择一个可直接拨号的号码</string>
   <string name="call_assistant">呼叫%s</string>
   <string name="call_callback">呼叫回拨号码</string>
@@ -42,7 +42,7 @@
   <string name="call_home">呼叫住宅电话</string>
   <string name="call_isdn">呼叫 ISDN</string>
   <string name="call_log_empty_gecode">-</string>
-  <string name="call_log_item_count_and_date">(%1$d) %2$s</string>
+  <string name="call_log_item_count_and_date" formatted="false">(%1$d) %2$s</string>
   <string name="call_log_new_header">新记录</string>
   <string name="call_log_old_header">旧记录</string>
   <string name="call_main">呼叫总机</string>
@@ -58,7 +58,6 @@
   <string name="call_work_mobile">呼叫单位手机</string>
   <string name="call_work_pager">呼叫单位寻呼机</string>
   <string name="calllog_menu_blacklist">加入黑名单</string>
-  <string name="calllog_menu_call_ip_number">拨打IP电话 (加拨%s)</string>
   <string name="calllog_menu_edit_before_call">呼叫前编辑</string>
   <string name="calllog_menu_send_sms">发送短信</string>
   <string name="callrecordview_item_newcontact">新建联系人</string>
@@ -101,6 +100,7 @@
   <string name="chat_qq">使用 QQ 聊天</string>
   <string name="chat_skype">使用 Skype 聊天</string>
   <string name="chat_yahoo">使用雅虎软件聊天</string>
+  <string name="check_unsynchronized_accounts">检查未同步联系人频率</string>
   <string name="clearCallLogConfirmation">确定要清除通话记录吗？</string>
   <string name="clearCallLogConfirmation_title">清除通话记录</string>
   <string name="clearCallLogProgress_title">正在清除通话记录</string>
@@ -108,8 +108,8 @@
   <string name="composer_failed_to_get_database_infomation">无法获取数据库信息</string>
   <string name="composer_has_no_exportable_contact">没有可导出的联系人。如果您的手机中确实有联系人，则可能是某些数据提供程序禁止您从手机中导出任何联系人。</string>
   <string name="composer_not_initialized">vCard 制作程序未正确初始化</string>
-  <string name="confirm_delete_selected_call_log" formatted="false">确定要删除所选的 %1d 组通话记录吗？</string>
-  <string name="confirm_export_message" formatted="false">要将您的联系人列表导出至文件“%s”吗？</string>
+  <string name="confirm_delete_selected_call_log">确定要删除所选的 %1d 组通话记录吗？</string>
+  <string name="confirm_export_message">要将您的联系人列表导出至文件“%s”吗？</string>
   <string name="confirm_export_title">确认导出</string>
   <string name="connections">联系</string>
   <string name="contactDetailAbout">详情</string>
@@ -186,6 +186,9 @@
   <string name="dialog_new_group_account">要在哪个帐户下创建群组？</string>
   <string name="dialog_sync_add">添加同步群组</string>
   <string name="directory_search_label">目录</string>
+  <string name="dirty_contacts_notification_description" formatted="false">本地有%d位联系人的修改没有和帐号同步</string>
+  <string name="dirty_contacts_notification_message">(可以在联系人设置里关闭提醒)</string>
+  <string name="dirty_contacts_notification_title">请问是否同步联系人?</string>
   <string name="display_all_contacts">所有联系人</string>
   <string name="display_more_groups">更多群组…</string>
   <string name="display_options_sort_by_family_name">姓氏</string>
@@ -195,13 +198,13 @@
   <string name="display_options_view_given_name_first">名字在前</string>
   <string name="display_options_view_names_as">联系人姓名的显示方式</string>
   <string name="display_ungrouped">其他所有联系人</string>
-  <string name="display_warn_remove_ungrouped" formatted="false">如果从同步中删除群组“%s”，则会同时删除其中所有未分组的联系人。</string>
+  <string name="display_warn_remove_ungrouped">如果从同步中删除群组“%s”，则会同时删除其中所有未分组的联系人。</string>
   <string name="editContactDescription">编辑联系人</string>
   <string name="edit_contact">编辑联系人</string>
   <string name="edit_contact_card_title">发送前编辑联系人名片</string>
   <string name="email">电子邮件</string>
   <string name="emailLabelsGroup">发送电子邮件</string>
-  <string name="email_custom" formatted="false">向%s发送电子邮件</string>
+  <string name="email_custom">向%s发送电子邮件</string>
   <string name="email_home">向住宅邮箱发送电子邮件</string>
   <string name="email_mobile">向手机发送电子邮件</string>
   <string name="email_other">发送电子邮件</string>
@@ -216,21 +219,24 @@
   <string name="exporting_contact_list_message" formatted="false">正在向“%s”导出联系人数据</string>
   <string name="exporting_contact_list_title">正在导出联系人数据</string>
   <string name="exporting_vcard_canceled_title" formatted="false">已取消导出 %s</string>
-  <string name="exporting_vcard_finished_title" formatted="false">导出 %s 已完成</string>
+  <string name="exporting_vcard_finished_title">导出 %s 已完成</string>
   <string name="external_profile_title">我的%1$s个人资料</string>
-  <string name="fail_reason_could_not_initialize_exporter" formatted="false">无法初始化导出程序：“%s”</string>
+  <string name="fail_reason_could_not_initialize_exporter">无法初始化导出程序：“%s”</string>
   <string name="fail_reason_could_not_open_file" formatted="false">无法打开“%s”：%s</string>
-  <string name="fail_reason_error_occurred_during_export" formatted="false">导出时出错：“%s”</string>
+  <string name="fail_reason_error_occurred_during_export">导出时出错：“%s”</string>
   <string name="fail_reason_io_error">I/O 错误</string>
   <string name="fail_reason_low_memory_during_import">存储器空间不足（文件可能过大）</string>
   <string name="fail_reason_no_exportable_contact">没有可导出的联系人</string>
   <string name="fail_reason_not_supported">不支持此格式。</string>
-  <string name="fail_reason_too_long_filename" formatted="false">所需文件名太长（“%s”）</string>
+  <string name="fail_reason_too_long_filename">所需文件名太长（“%s”）</string>
   <string name="fail_reason_too_many_vcard">存储设备中的 vCard 文件过多</string>
   <string name="fail_reason_unknown">未知错误</string>
   <string name="favoritesFrequentCalled">经常呼叫的联系人</string>
   <string name="favoritesFrequentContacted">经常联系的人</string>
   <string name="foundTooManyContacts" formatted="false">找到的联系人超过 %d 位</string>
+  <string name="frequency_none">不提醒</string>
+  <string name="frequency_three_days">每3天检查并提醒</string>
+  <string name="frequency_weekly">每周检查并提醒</string>
   <string name="frequentList">经常联系</string>
   <string name="full_name">姓名</string>
   <string name="ghostData_company">公司</string>
@@ -246,6 +252,7 @@
   <string name="group_read_only">无法在此设备上修改</string>
   <string name="groupsLabel">群组</string>
   <string name="hint_findContacts">查找联系人</string>
+  <string name="hint_search_contacts">搜索%d位联系人</string>
   <string name="imLabelsGroup">即时消息</string>
   <string name="imei">移动通信国际识别码</string>
   <string name="import_all_vcard_string">导入所有 vCard 文件</string>
@@ -255,7 +262,7 @@
   <string name="import_from_sim">从 SIM 卡导入</string>
   <string name="import_multiple_vcard_string">导入多个 vCard 文件</string>
   <string name="import_one_vcard_string">导入一个 vCard 文件</string>
-  <string name="importing_vcard_canceled_title" formatted="false">已取消导入 %s</string>
+  <string name="importing_vcard_canceled_title">已取消导入 %s</string>
   <string name="importing_vcard_description" formatted="false">正在导入%s</string>
   <string name="importing_vcard_finished_title" formatted="false">导入 vCard %s 已完成</string>
   <string name="insertContactDescription">创建联系人</string>
@@ -283,7 +290,7 @@
   <string name="local_search_label">所有联系人</string>
   <string name="locale_change_in_progress">正在更新联系人列表，以反映语言的变更。</string>
   <string name="make_primary">记住此选择</string>
-  <string name="map_custom" formatted="false">查看%s地址</string>
+  <string name="map_custom">查看%s地址</string>
   <string name="map_home">查看住宅地址</string>
   <string name="map_other">查看地址</string>
   <string name="map_work">查看单位地址</string>
@@ -292,6 +299,7 @@
   <string name="menu_addStar">添加到收藏</string>
   <string name="menu_call">呼叫联系人</string>
   <string name="menu_callNumber" formatted="false">呼叫%s</string>
+  <string name="menu_call_ip_number">拨打IP电话 (加拨%s)</string>
   <string name="menu_contacts_filter">要显示的联系人</string>
   <string name="menu_copyContact">复制到我的联系人</string>
   <string name="menu_deleteContact">删除</string>
@@ -364,6 +372,7 @@
         "</string>
   <string name="noGroups">没有任何群组</string>
   <string name="noMatchingContacts">未找到匹配的联系人。</string>
+  <string name="noRecentContacts">当前没有最近联系人</string>
   <string name="no_account_prompt">"拥有 Google 帐户可增强“分享对象”的功能。
 
 • 通过任意网络浏览器访问“分享对象”
@@ -383,7 +392,7 @@
   <string name="organization_company_and_title" formatted="false">%2$s，%1$s</string>
   <string name="payphone">公用电话</string>
   <string name="people">联系人</string>
-  <string name="percentage" formatted="false">%s%%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">电话</string>
   <string name="photoPickerNotFoundText">手机上没有照片。</string>
   <string name="pick_favorites_list_title" formatted="false">共有%1$d个收藏联系人号码</string>
@@ -399,12 +408,17 @@
   <string name="postal_region">省/直辖市/自治区</string>
   <string name="postal_street">街道</string>
   <string name="preference_displayOptions">显示选项</string>
+  <string name="preference_export">导出</string>
+  <string name="preference_import">导入</string>
+  <string name="preference_others">其他</string>
   <string name="preview_contact_card_title">导入联系人名片</string>
   <string name="primary_indicator">(默认)</string>
   <string name="private_num">私人号码</string>
   <string name="profile_display_name">设置我的个人资料</string>
   <string name="progress_notifier_message" formatted="false">正在导入第 %s 个（共 %s 个）联系人：%s</string>
   <string name="quickcontact_missing_app">未找到可处理此操作的应用程序</string>
+  <string name="raw_contact_account_label" formatted="false">帐号:%1$s</string>
+  <string name="raw_contact_list_title" formatted="false">该联系人包含如下%1$d个关联联系人，点击选择要编辑的联系人</string>
   <string name="readOnlyContactDeleteConfirmation">该联系人的信息中包含来自多个帐户的信息。来自只读帐户的信息将在您的联系人列表中隐藏，但不会删除。</string>
   <string name="readOnlyContactWarning">您不能删除只读帐户中的联系人，但可以在您的联系人列表中将其隐藏。</string>
   <string name="reading_vcard_failed_title">无法读取 vCard 数据</string>
@@ -417,6 +431,9 @@
   <string name="recent_contacts_label">最近联系</string>
   <string name="recent_updates">最新动态</string>
   <string name="relationLabelsGroup">关系</string>
+  <string name="remind_btn_ignore">忽略</string>
+  <string name="remind_btn_not_remind">不再提醒</string>
+  <string name="remind_btn_sync_now">马上同步</string>
   <string name="removePhoto">删除照片</string>
   <string name="ringLabelsGroup">铃声</string>
   <string name="savingContact">正在保存联系人…</string>
@@ -434,7 +451,7 @@
   <string name="select_vcard_title">选择 vCard 文件</string>
   <string name="separatorJoinAggregateAll">所有联系人</string>
   <string name="separatorJoinAggregateSuggestions">建议的联系人</string>
-  <string name="service_provider">服务商</string>
+  <string name="service_provider">黄页</string>
   <string name="set_default">设置默认值</string>
   <string name="share_error">无法分享此联系人。</string>
   <string name="share_via">联系人分享方式</string>
@@ -446,12 +463,15 @@
   <string name="showAllContactsJoinItem">显示所有联系人</string>
   <string name="simContacts_emptyLoading">正从 SIM 卡中载入...</string>
   <string name="simContacts_title">SIM 卡联系人</string>
+  <string name="sim_contact_search_error">搜索SIM卡联系人发生错误</string>
+  <string name="sim_indexed_contact_not_exist">数字 %1$d 不是SIM卡有效位置，请输入 %2$d 到 %3$d</string>
+  <string name="sim_no_contact">无SIM卡联系人</string>
   <string name="sms">短信</string>
-  <string name="sms_assistant" formatted="false">向%s发送短信</string>
+  <string name="sms_assistant">向%s发送短信</string>
   <string name="sms_callback">向回拨号码发送短信</string>
   <string name="sms_car">向车载电话发送短信</string>
   <string name="sms_company_main">向公司总机发送短信</string>
-  <string name="sms_custom" formatted="false">向%s发送文本消息</string>
+  <string name="sms_custom">向%s发送文本消息</string>
   <string name="sms_disambig_title">短信发送方式</string>
   <string name="sms_fax_home">向住宅传真机发送短信</string>
   <string name="sms_fax_work">向单位传真机发送短信</string>
@@ -499,7 +519,11 @@
   <string name="unknown">未知</string>
   <string name="unkown_location">归属地不明</string>
   <string name="upgrade_in_progress">正在更新联系人列表。</string>
-  <string name="upgrade_out_of_memory" formatted="false">"正在升级联系人。升级过程需要约 %s MB 的内存。请选择以下选项之一："</string>
+  <string name="upgrade_out_of_memory">"正在升级联系人。
+
+升级过程需要约 %s MB 的内存。
+
+请选择以下选项之一："</string>
   <string name="upgrade_out_of_memory_retry">重新尝试升级</string>
   <string name="upgrade_out_of_memory_uninstall">卸载一些应用程序</string>
   <string name="use_photo_as_primary">使用此照片</string>
@@ -533,4 +557,5 @@
   <string name="voicemail_status_voicemail_not_available">无法连接到语音信箱服务器。</string>
   <string name="websiteLabelsGroup">网站</string>
   <string name="widget_name_and_phonetic" formatted="false">%1$s (%2$s)</string>
+  <string name="wipe_data">清空联系人数据</string>
 </resources>

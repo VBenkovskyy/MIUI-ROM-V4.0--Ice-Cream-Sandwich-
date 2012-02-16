@@ -6,6 +6,7 @@
   <string name="cancel_action">Cancel</string>
   <string name="cancel_btn_label">Cancel</string>
   <string name="cant_remove_folder">Unable to remove non-empty folder</string>
+  <string name="cant_remove_retained_app">Unable to uninstall application customized by the operator</string>
   <string name="cant_remove_system_app">Unable to remove system application</string>
   <string name="chooser_wallpaper">Select wallpaper from</string>
   <string name="confirm_btn_label">OK</string>

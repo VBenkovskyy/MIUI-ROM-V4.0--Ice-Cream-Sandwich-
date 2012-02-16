@@ -62,5 +62,4 @@
   <string name="retry_download">重试</string>
   <string name="select_all">全选</string>
   <string name="selected_count">已选择 %1$d 个，共 %2$d 个</string>
-  <string name="selected_format">已选择 %1$d 个</string>
 </resources>

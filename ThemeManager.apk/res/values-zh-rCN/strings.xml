@@ -36,6 +36,7 @@
   <string name="theme_component_title_audio_effect">系统音效</string>
   <string name="theme_component_title_boot_animation">开机动画</string>
   <string name="theme_component_title_boot_audio">开机音乐</string>
+  <string name="theme_component_title_clock">桌面时钟</string>
   <string name="theme_component_title_contact">拨号与联系人</string>
   <string name="theme_component_title_font">字体</string>
   <string name="theme_component_title_framework">系统界面</string>
@@ -46,6 +47,7 @@
   <string name="theme_component_title_mms">短信主题</string>
   <string name="theme_component_title_notification">通知铃声</string>
   <string name="theme_component_title_others">其它</string>
+  <string name="theme_component_title_photo_frame">桌面相框</string>
   <string name="theme_component_title_ringtone">来电铃声</string>
   <string name="theme_component_title_statusbar">通知栏</string>
   <string name="theme_component_title_wallpaper">桌面壁纸</string>
